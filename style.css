@@ -1,0 +1,199 @@
+body {
+  width: auto;
+  margin: 0 auto;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit";
+  font-size: 18px;
+  color: white;
+}
+
+.nft-card {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  margin:5% auto;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 20px;
+  background: hsl(216, 50%, 16%);
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+h1 {
+  color: white;
+  font-size: 24px;
+  padding: 0% 20px;
+}
+
+p {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  padding: 0% 20px;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.icon img {
+  width: 10px;
+  height: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.eth-icon {
+  display: flex;
+  color: hsl(178, 100%, 50%);
+}
+.clock-icon {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+}
+.clock-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  margin: 0% 20px;
+}
+.author img {
+  border-radius: 50%;
+  border: white 1px solid;
+  width: 30px;
+  height: 30px;
+}
+.author-name {
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+<!-- Desktop 1440px -- > @media screen and (min-width: 601px) {
+  body {
+  width: auto;
+  margin: 0 auto;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit";
+  font-size: 18px;
+  color: white;
+}
+
+.nft-card {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 20px;
+  background: hsl(216, 50%, 16%);
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+h1 {
+  color: white;
+  font-size: 24px;
+  padding: 0% 20px;
+}
+
+p {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  padding: 0% 20px;
+}
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.icon img {
+  width: 10px;
+  height: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.eth-icon {
+  display: flex;
+  color: hsl(178, 100%, 50%);
+}
+.clock-icon {
+  display: flex;
+  color: hsl(215, 51%, 70%);
+}
+.clock-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  margin: 0% 20px;
+}
+.author img {
+  border-radius: 50%;
+  border: white 1px solid;
+  width: 30px;
+  height: 30px;
+}
+.author-name {
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
